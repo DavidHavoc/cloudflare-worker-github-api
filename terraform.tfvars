@@ -1,0 +1,5 @@
+cloudflare_api_token = "your-actual-token-here"
+cloudflare_zone_id   = "your-zone-id-here"
+domain_name          = "myportfolio.com"
+subdomain_name       = "devops"
+worker_name          = "hello-worker"

@@ -1,2 +1,14 @@
-# cloudflare-worker-github-api
-This serverless Cloudflare Worker fetches and returns dynamic GitHub profile data using the GitHub API. It demonstrates cloud infrastructure automation with Terraform and real-time data handling
+# Cloudflare Worker Deployment with Terraform
+
+This project deploys a serverless Cloudflare Worker at **https://devops.zhorzholiani.com** using Terraform.
+
+## What it does:
+- Creates a custom Worker responding "Hello from my Cloudflare Worker!"
+- Binds it to the subdomain `devops.zhorzholiani.com`
+- Automates DNS setup through Cloudflare.
+
+## How to deploy:
+```bash
+terraform init
+terraform plan
+terraform apply
